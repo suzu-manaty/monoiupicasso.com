@@ -619,6 +619,12 @@ header{
     letter-spacing: 0.15em;
 }
 
+.conC a {
+    color: #fff;
+    color: var(--text-bright-color);
+    text-decoration: none;
+}
+
 .conC table{
     border-collapse: collapse;
     border-top: solid 1px #ddd;
