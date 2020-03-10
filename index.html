@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ものいうピカソ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<style>
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+</style>
+<script src="https://kit.fontawesome.com/ad24aa8fb9.js" crossorigin="anonymous"></script>
+
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+    $(function(){
+        $(".headC").click(function(){
+            $(".headB").slideToggle();
+        });
+    });
+</script>
+</head>
+<body>
+
+<header>
+<div class="container">
+    <div class="container-small">
+    <a href="index.html" class="headA">ものいうピカソ</a>
+    <button type="button" class="headC">
+        <i class="fas fa-bars"></i>
+    </button>
+    </div>
+<nav class="headB">
+    <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="music.html">MUSIC</a></li>
+        <li><a href="goods.html">GOODS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</nav>
+</div>
+</header>
+
+<section class="conA">
+<div class="container">
+    <div class="main">
+        <img src="img/logo_line_white.svg" alt="">
+        <h1>ものいうピカソ</h1>
+        <p>一生をヒトイキに。</p>
+    </div>
+</div>
+</section>
+
+<section class="conB" id="conB">
+<div class="container">
+    <div class="text">
+        <i class="fas fa-child icon"></i>
+        <h2>ものいうピカソ</h2>
+        <p>へんな名前のバンドについてご紹介。</p>
+        <a href="#">MORE <i class="fas fa-chevron-right"></i></a>
+    </div>
+    <div class="text">
+        <i class="fas fa-music icon"></i>
+        <h2>ものいう歴史</h2>
+        <p>これまでの活動。</p>
+        <a href="#">MORE <i class="fas fa-chevron-right"></i></a>
+    </div>
+    <div class="text">
+        <i class="fas fa-shapes icon"></i>
+        <h2>ものいうメディア</h2>
+        <p>インタビューなど。</p>
+        <a href="#">MORE <i class="fas fa-chevron-right"></i></a>
+    </div>
+</div>
+</section>
+
+<section class="conC">
+<div class="container">
+    <div class="photo"></div>
+    <div class="text">
+        <h2>多面的な世界を紡ぐ楽曲達</h2>
+        <p>ものいうピカソの曲には、<br>
+            聴く人の数だけ正解があります。</p>
+        <a href="#">楽曲リスト <i class="fas fa-chevron-right"></i></a>
+    </div>
+</div>
+</section>
+
+<section class="conD">
+<div class="container">
+    <div class="photo"></div>
+    <div class="text">
+        <h2>ものいうピカソのグッズ達</h2>
+        <p>メンバーお手製。<br>
+            こだわりと遊び心がいっぱいです。</p>
+        <a href="#">ラインナップ <i class="fas fa-chevron-right"></i></a>
+    </div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+    <div class="footA">
+        <h2>ものいうピカソ</h2>
+        <p><a href="#">http://#############</a></p>
+    <nav class="footD">
+    <ul>
+        <li><a href="#">
+            <i class="fab fa-twitter" title="Twitter"></i>
+        </a></li>
+        <li><a href="#">
+            <i class="fab fa-instagram" title="Instagram"></i>
+        </a></li>
+        <li><a href="#">
+            <i class="fab fa-facebook-f" title="Facebook"></i>
+        </a></li>
+        <li><a href="#">
+            <i class="fab fa-youtube" title="YouTube"></i>
+        </a></li>
+    </ul>
+    </nav>
+    </div>
+    
+    <nav class="footB">
+    <div>
+        <h3>ABOUT</h3>
+        <ul>
+            <li><a href="#">バンド</a></li>
+            <li><a href="#">メンバー</a></li>
+            <li><a href="#">経歴</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>ACTIVITY</h3>
+        <ul>
+            <li><a href="#">ライブ</a></li>
+            <li><a href="#">楽曲</a></li>
+            <li><a href="#">グッズ</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>CONTENTS</h3>
+        <ul>
+            <li><a href="#">お知らせ</a></li>
+            <li><a href="#">ブログ</a></li>
+            <li><a href="#">問合せ</a></li>
+        </ul>
+    </div>
+    </nav>
+    
+    <div class="footC">
+        ©︎ ものいうピカソ All rights reserved.
+    </div>
+</div>
+</footer>
+
+</body>
+</html>
