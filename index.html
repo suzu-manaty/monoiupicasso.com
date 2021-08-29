@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 <style>
     .sr-only {
@@ -40,6 +41,13 @@
 </head>
 <body>
 
+<!-- GSAPの読み込み -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="/gsap-member/minified/gsap.min.js"></script>
+<script src="/gsap-member/minified/CustomEase.min.js"></script>
+<!-- //JSシートの読み込み -->
+<script src="scripts/main.js"></script>
+
 <header>
 <div class="container">
     <div class="container-small">
@@ -72,27 +80,56 @@
 <section class="conA">
 <div class="container">
     <div class="main">
-        <a href="music.html"><img src="img/jacket_shirogasomaruiro.jpg" alt=""></a>
+        <a><span></span></a>
     </div>
 </div>
 </section>
 
+<section class="conB">
+<div class="container">
+    <h2>MUSIC</h2>
+</div>
+<div class="post">
+    <div class="img"><a href="music.html"><img src="img/jacket_fuwanoruri.jpg" alt=""></a></div>
+    <div class="sentence"><a href="music.html">不和の瑠璃</a></div>
+</div>
+<div class="post">
+    <div class="img"><a href="music.html"><img src="img/jacket_shirogasomaruiro.jpg" alt=""></a></div>
+    <div class="sentence"><a href="music.html">白が染まる色</a></div>
+</div>
+<div class="post">
+    <div class="img"><a href="music.html"><img src="img/jacket_routine.jpg" alt=""></a></div>
+    <div class="sentence"><a href="music.html">routine</a></div>
+</div>
+<div class="view_all">
+    <a href="music.html">＞　view all</a>
+</div>
+</section>
+
+
 <section class="conC">
 <div class="container">
     <h2>NEWS</h2>
+</div>
+<div class="container">
     <div class="text">
         <div class="post">
-            <div class="day"><a href="news.html#20200906">2020.9.6</a></div>
-            <div class="sentence"><a href="news.html">すみだストリートジャズフェスティバル出演中！</a></div>
+            <div class="day"><a href="news.html#20210828">2021.08.28</a></div>
+            <div class="sentence"><a href="news.html#20210828">3rd Single「不和の瑠璃」をリリースしました。</a></div>
         </div>
         <div class="post">
-            <div class="day"><a href="news.html#20200314_02">2020.3.14</a></div>
-            <div class="sentence"><a href="news.html">2nd Single「白が染まる色」をリリースしました。</a></div>
+            <div class="day"><a href="news.html#20200906">2020.09.06</a></div>
+            <div class="sentence"><a href="news.html#20200906">すみだストリートジャズフェスティバル出演中！</a></div>
         </div>
         <div class="post">
-            <div class="day"><a href="news.html#20200314_01">2020.3.14</a></div>
-            <div class="sentence"><a href="news.html">ものいうピカソwebサイト リニューアルオープン！</a></div>
+            <div class="day"><a href="news.html#20200314_02">2020.03.14</a></div>
+            <div class="sentence"><a href="news.html#20200314_02">2nd Single「白が染まる色」をリリースしました。</a></div>
         </div>
+    </div>
+</div>
+<div class="container">
+    <div class="view_all">
+        <a href="news.html">＞　view all</a>
     </div>
 </div>
 </section>
